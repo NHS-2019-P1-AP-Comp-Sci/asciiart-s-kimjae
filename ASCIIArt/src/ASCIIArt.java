@@ -18,10 +18,45 @@
 
 public class ASCIIArt {
 	public static void main (String [] args) {
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
+		flashcaption();
+		flashHead();
+		flashBody();
+		flashLeg(); 
+		
 	}
-}
+	
+	public static void flashHead () {
+		System.out.println("                      /^^^^^^^^\\");
+		System.out.println("                    ~(| [*][*] |)~");
+		System.out.println("                      |>\\_^^_/<|");
+		System.out.println("                      |__\\__/__|");
+		System.out.println("                         [  ]");
+	
+	}
+	public static void flashBody () {
+		System.out.println("                     _,..|  |..,");
+		System.out.println("              (^^)  /|       /'\\\\");
+		System.out.println("               \\ \\,[/|     _// |\\\\");
+		System.out.println("                \\_[/ |    /_/  |/ \\");
+		System.out.println("                     |   //    |/ /");
+		System.out.println("		     |	/'     |(.)");
+		System.out.println("                     \\_________/_");
+	}
+	public static void flashLeg () {
+		System.out.println("                     (  )   (  )\\ \\");
+		System.out.println("                    (  )   (  ) _\\_\\");
+		System.out.println("                   (  )    (  )` \\ \\");
+		System.out.println("                   (  )     (  ) _\\_\\");
+		System.out.println("                  /  |      /  /  \\\\");
+		System.out.println("                 [:__|     [:__/   \\\\");
+		System.out.println("                                    \\");
+	}public static void flashcaption () {
+		System.out.println("                                   _____________________________________________________");
+		System.out.println("                                  (My name is Barry Allen and I am the fastest man alive!)");
+		System.out.println("                                 /(______________________________________________________)");
+		System.out.println("                               /_/");
+		System.out.println("                              \\/");
+	}
+	
+		
+	}
